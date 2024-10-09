@@ -1,0 +1,185 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  
+  
+}|
+html{
+    font-size: 62.5%;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+height: 4rem;
+}
+nav i{
+    font-size: 2rem;
+}
+nav ul{ list-style-type: none;
+    display: none;
+    gap: 2rem;
+}
+nav .logo h1{
+    font-weight: 600;
+}
+nav ul li{ 
+
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: black;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+  
+}
+.hero .left img{
+    width: 20rem;
+border-radius: 100%;
+    
+}
+.hero .right h1{
+font-weight: 800;
+line-height: 2rem;
+}
+.hero .right h3{
+    font-size: 1.5rem;
+}
+.buttons{
+    margin-bottom: 1rem;
+}
+.buttons button:nth-child(1){
+background-color: transparent;
+border-radius: 5rem;
+padding: .5rem 1rem 0.5rem 1rem;
+}
+.buttons button:nth-child(2){
+background-color: black;
+color: white;
+border: none;
+border-radius: 5rem;
+padding: .5rem 1rem 0.5rem 1rem;
+margin-bottom: 2e;
+}
+.right i{
+    font-size: 1.5rem;
+}
+/* About sec */
+.about{ margin-top: 4rem;
+    display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.about h1{
+    font-weight: 700;
+    line-height: 3rem;
+}
+.about .about-img img{ margin-top: 1rem;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 2rem;
+}
+.about-ex{
+    display: flex;
+    flex-direction: column;
+}
+.experience{
+    display: flex;
+    margin: auto;
+    gap:1rem;
+    margin-bottom: 2rem;
+}
+.box{
+    width: 10rem;
+    border: 1px black solid;
+    border-radius: 1rem;
+   text-align: center;
+   padding: .5rem;
+}
+.about-all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box h2{
+    font-weight: 500;
+}
+
+@media (min-width:1000px){
+    nav ul{
+        display: flex;
+    }
+    nav i{
+        display: none;
+    }
+    .hero{ 
+        margin: auto;
+        margin-top: 6rem;
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 70vh;
+        align-items: center;
+
+    }
+    .hero .right h1{
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+    .hero .right h3{
+        font-size: 1.8rem;
+        line-height: 3rem;
+    }
+.about-all{
+    display: flex;
+   flex-direction: row;
+   margin-top: 3rem;
+  
+}
+  
+
+.hero{
+    margin-bottom: 1rem;
+}
+.about .about-img img{ margin-top: 1rem;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 2rem;
+}
+.box{
+    width: 20rem;
+    border: 1px black solid;
+    border-radius: 1rem;
+   text-align: center;
+   padding: 1rem;
+}
+.abh1{
+    font-size: 4rem;
+}
+.abp{
+    font-size: 1rem;
+}
+.about-ex{
+    
+    width: 50%;
+    margin: auto;
+}
+}
+
